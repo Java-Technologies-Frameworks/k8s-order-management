@@ -3,7 +3,7 @@ WORKDIR /app
 
 COPY build/libs/* build/lib/
 
-COPY build/libs/k8s-order-mgmt-application-1.0.0.jar build/
+COPY build/libs/k8s-order-management-application-1.0.0.jar build/
 
 WORKDIR /app/build
 EXPOSE 8080
