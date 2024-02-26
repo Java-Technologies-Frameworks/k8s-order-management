@@ -7,7 +7,7 @@ COPY build/libs/k8s-order-management-application-1.0.0.jar build/
 
 WORKDIR /app/build
 EXPOSE 8080
-ENTRYPOINT java -jar k8s-order-mgmt-application-1.0.0.jar
+ENTRYPOINT java -jar k8s-order-management-application-1.0.0.jar
 
 
 
